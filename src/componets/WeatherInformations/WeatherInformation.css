@@ -1,0 +1,82 @@
+.weather-container {
+    /* Baseada na cor que você gostou (mais escura e sólida) */
+    background: rgba(0, 0, 0, 0.6); 
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    
+    /* Compactando o espaçamento */
+    padding: 10px 25px; 
+    margin: 10px auto; 
+    width: 95%;
+    max-width: 450px;
+    
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+    animation: fadeIn 0.5s ease-in;
+}
+
+/* Efeito de destaque suave */
+.weather-container:hover {
+    background: rgba(0, 0, 0, 0.75);
+    transform: scale(1.02);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+h2 {
+    font-size: 1.6rem; /* Reduzido */
+    margin: 0;
+    text-align: center;
+    color: #f0f1f1; /* Um azul neon para destacar no escuro */
+}
+
+.weather-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0; /* Espaço reduzido */
+}
+
+.weather-info img {
+    width: 80px; /* Reduzido */
+    filter: drop-shadow(0px 0px 8px rgba(255,255,255,0.2));
+}
+
+.temperature {
+    font-size: 3rem; /* Mais compacto */
+    font-weight: 800;
+}
+
+.description {
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    color: #ddd;
+    margin-bottom: 15px;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px; /* Espaço entre itens bem pequeno */
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 15px;
+}
+
+.details p {
+    font-size: 0.85rem; /* Fonte menor para caber tudo */
+    background: rgba(255, 255, 255, 0.05);
+    padding: 8px;
+    border-radius: 8px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+}

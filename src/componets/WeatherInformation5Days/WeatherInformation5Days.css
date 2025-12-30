@@ -1,0 +1,64 @@
+/* Container principal dos 5 dias */
+.weather-container {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 800px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #f4efef;
+    margin-bottom: 20px;
+}
+
+/* O "Pai" da lista: aqui fazemos a mágica de colocar lado a lado */
+.weather-list {
+    display: flex; /* Coloca os itens em linha */
+    justify-content: space-around; /* Espaça eles igualmente */
+    gap: 10px; /* Pequeno espaço entre os cartões */
+    flex-wrap: wrap; /* Se a tela for pequena (celular), ele pula linha */
+}
+
+/* Cada quadradinho de dia individual */
+.weather-item {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column; /* Organiza os itens de cada dia um abaixo do outro */
+    align-items: center;
+    flex: 1; /* Faz todos terem a mesma largura */
+    min-width: 100px; /* Largura mínima para não esmagar */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.forecast-day {
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+.weather-item img {
+    width: 60px;
+    height: 60px;
+}
+
+.forecast-description {
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 5px 0;
+    color: #666;
+}
+
+.forecast-temp {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #111;
+}
