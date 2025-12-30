@@ -44,17 +44,17 @@ A aplicação consome dois endpoints principais da **OpenWeather**:
 
 2. Instale as dependências:
 
-Bash
-npm install
-
+```bash
+   npm install
 
 3. Execute o projeto no modo de desenvolvimento:
 
-Bash
+```bash
 npm run dev
 
 4. Abra o navegador no endereço indicado pelo Vite (geralmente http://localhost:5173).
 
+---
 
 ## 👤 Desenvolvedor
 Jeferson Leon Desenvolvedor Frontend em constante evolução.
