@@ -40,4 +40,30 @@ A aplicação consome dois endpoints principais da **OpenWeather**:
 
 1. Clone o repositório:
    ```bash
-   git clone [LINK_DO_SEU_REPOSITORIO]
+   git clone https://github.com/jefersonleon/react-previsao.git
+
+2. Instale as dependências:
+
+Bash
+npm install
+
+
+3. Execute o projeto no modo de desenvolvimento:
+
+Bash
+npm run dev
+
+4. Abra o navegador no endereço indicado pelo Vite (geralmente http://localhost:5173).
+
+
+## 👤 Desenvolvedor
+Jeferson Leon Desenvolvedor Frontend em constante evolução.
+
+🌐 LinkedIn: www.linkedin.com/in/jefersonleon
+
+💻 GitHub: https://github.com/jefersonleon
+
+✉️ Email: jeferson.leon@ulbra.br
+
+📝 Licença
+Este projeto é para fins de estudo. Sinta-se à vontade para clonar e aprimorar!
