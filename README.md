@@ -1,16 +1,43 @@
-# React + Vite
+# 🌤️ Previsão do Tempo - React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma aplicação moderna de consulta meteorológica desenvolvida com **React** e **Vite**. Ele permite que os usuários busquem informações em tempo real sobre o clima de qualquer cidade do mundo, exibindo dados atuais e a previsão detalhada para os próximos 5 dias.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias Utilizadas
 
-## React Compiler
+O projeto foi construído utilizando as melhores práticas de desenvolvimento web moderno:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **React JS**: Biblioteca principal para construção da interface.
+* **Vite**: Ferramenta de build ultra-rápida para o ambiente de desenvolvimento.
+* **Axios**: Para consumo de dados da API de forma assíncrona.
+* **CSS3 Moderno**: Estilização com conceitos de *Dark Mode* e *Flexbox/Grid*.
+* **OpenWeather API**: Fonte oficial de dados meteorológicos.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Funcionalidades
+
+* 🔍 **Busca Dinâmica**: Digite o nome de qualquer cidade para obter dados instantâneos.
+* 🌡️ **Dados Atuais**: Visualização de Temperatura, Sensação Térmica, Umidade e Pressão.
+* 🗓️ **Previsão de 5 Dias**: Painel horizontal com a evolução do clima para os dias seguintes.
+* 🎨 **Interface Responsiva**: Design escuro (Deep Ocean Blue) otimizado para desktop e mobile.
+* ✨ **Feedback Visual**: Animações suaves ao passar o mouse e ícones climáticos dinâmicos.
+
+---
+
+## 📡 Sobre a API utilizada
+
+A aplicação consome dois endpoints principais da **OpenWeather**:
+1.  **Current Weather Data**: Para obter o clima em tempo real da cidade buscada.
+2.  **5 Day / 3 Hour Forecast**: Para processar e exibir a média dos próximos 5 dias.
+
+> **Nota:** É necessário ter uma `API KEY` válida da OpenWeather para o funcionamento do projeto.
+
+---
+
+## 🛠️ Como executar o projeto
+
+1. Clone o repositório:
+   ```bash
+   git clone [LINK_DO_SEU_REPOSITORIO]
